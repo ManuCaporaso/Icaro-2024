@@ -8,15 +8,15 @@
 
 body {
     margin: 0;
-    background-color: #FFFFFF; /* Blanco */
-    color: #000000; /* Negro */
+    background-color: #FFFFFF; 
+    color: #000000; 
 }
 
 
 
 header {
-    background-color: #0072C6; /* Azul marino */
-    color: #FFFFFF; /* Blanco */
+    background-color: #E02807;
+    color: #FFFFFF;
     padding: 10px 0;
 }
 
@@ -47,7 +47,7 @@ header h1 {
 }
 
 .navbar nav ul li a {
-    color: #FFFFFF; /* Blanco */
+    color: #FFFFFF; 
     text-decoration: none;
     font-size: 30px;
 }
@@ -80,8 +80,8 @@ main section {
 /*FOOTER*/
 
 footer {
-    background-color: #79BEE1; /* Celeste */
-    color: #FFFFFF; /* Blanco */
+    background-color: #E04F07; 
+    color: #FFFFFF; 
     padding: 10px 0;
     text-align: center;
 }
