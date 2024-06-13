@@ -1,13 +1,13 @@
 # Proyecto Blog de  ICARO 2024 
 
-# #Descripción
+## Descripción
 ### Este es un proyecto de página web dedicado al Turismo Carretera, creado utilizando HTML y CSS. Permite navegar por diversas secciones y leer artículos relacionados con el tema.
 
 ## Autor
 ### Este proyecto fue desarrollado por MANUEL ALEJANDRO CAPORASO.
 
 ## Enlace de despliegue
-### El proyecto se encuentra desplegado en la plataforma Netlify. Puedes visitarlo en el siguiente enlace: [https://icaro2024-blog.netlify.app/]
+### El proyecto se encuentra desplegado en la plataforma [Netlify]. Puedes visitarlo en el siguiente enlace: (https://icaro2024-blog.netlify.app/)
 
 ## Estructura del Proyecto
 ### index.html: Página principal con resúmenes de artículos.
