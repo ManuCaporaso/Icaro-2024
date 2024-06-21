@@ -14,7 +14,6 @@ body {
 }
 
 
-
 header {
     background-color: #E02807;
     color: #FFFFFF;
@@ -23,38 +22,52 @@ header {
 
 header h1 {
     margin: 20px;
-    font-size: 40px;
+    font-size: 24px;
 }
 
-.navbar ul{
+.navbar {
     display: flex;
-    justify-content:end
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .navbar nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navbar nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 .navbar nav ul li a {
     color: #FFFFFF; 
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
 }
 
-.navbar nav img{
-    width: 250px;
+.navbar nav img.logo {
+    width: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #FFFFFF;
 }
 
 /*MAIN*/
@@ -265,4 +278,65 @@ footer {
 
 #signup input[type="submit"]:hover {
     background-color: #E04F07;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .navbar nav ul {
+        flex-direction: column;
+        display: none;
+    }
+    
+    .navbar nav ul li {
+        margin: 5px 0;
+    }
+    
+    .navbar nav img.logo {
+        width: 120px;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+    
+    #menu-toggle:checked + .menu-icon + nav ul {
+        display: flex;
+    }
+
+    .principal img {
+        width: 400px;
+    
+    }
+
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 16px;
+    }
+
+
+
+    .navbar nav ul li a {
+        font-size: 16px;
+    }
+
+    .principal img {
+        width: 300px;
+    
+    }
+
+    .navbar2 p{
+        font-size: 12px;
+    }
+
+    .final {
+        display: none;
+    }
 }
